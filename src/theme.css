@@ -1,0 +1,42 @@
+/* ============================================================
+   THEME CSS — CSS custom properties driven by src/config.js
+   These are injected at runtime into :root by App.jsx.
+   You can also hard-code them here for quick edits.
+   ============================================================ */
+
+:root {
+  /* Injected dynamically from config.theme — see App.jsx */
+  --background:      linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --card-bg:         rgba(255, 255, 255, 0.13);
+  --card-border:     rgba(255, 255, 255, 0.25);
+  --card-hover:      rgba(255, 255, 255, 0.22);
+  --card-hover-border: rgba(255, 255, 255, 0.45);
+  --text-color:      #ffffff;
+  --subtext-color:   rgba(255, 255, 255, 0.75);
+  --accent-color:    #ffffff;
+  --avatar-border:   rgba(255, 255, 255, 0.6);
+  --avatar-glow:     rgba(255, 255, 255, 0.35);
+  --shadow-color:    rgba(0, 0, 0, 0.25);
+
+  /* Layout */
+  --max-width:       480px;
+  --card-radius:     16px;
+  --card-padding:    16px 22px;
+
+  /* Typography */
+  --font-family:     'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-size-name:  1.75rem;
+  --font-size-bio:   0.95rem;
+  --font-size-link:  1rem;
+
+  /* Transitions */
+  --transition-speed: 0.25s;
+}
+
+/* ---- Dark-mode override example (uncomment to use) ----
+@media (prefers-color-scheme: dark) {
+  :root {
+    --card-bg: rgba(0, 0, 0, 0.25);
+  }
+}
+*/
