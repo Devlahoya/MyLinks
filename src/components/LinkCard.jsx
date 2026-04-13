@@ -1,18 +1,6 @@
 import { motion } from 'framer-motion'
-import * as FaIcons from 'react-icons/fa6'
-import * as SiIcons from 'react-icons/si'
-import * as BiIcons from 'react-icons/bi'
-
-// Resolve an icon name string (e.g. "FaInstagram") to the actual component
-function resolveIcon(iconName) {
-  if (!iconName) return null
-  return (
-    FaIcons[iconName] ||
-    SiIcons[iconName] ||
-    BiIcons[iconName] ||
-    FaIcons['FaLink'] // fallback
-  )
-}
+import { FaChevronRight } from 'react-icons/fa6'
+import { resolveIcon } from '../icons'
 
 // Lighten a hex color for the icon bubble gradient
 function hexToRgba(hex, alpha = 1) {
@@ -38,7 +26,7 @@ const cardVariants = {
 }
 
 export default function LinkCard({ link, index }) {
-  const IconComponent = resolveIcon(link.icon)
+  const IconComponent = link.icon ? resolveIcon(link.icon) : null
   const color = link.color || '#667eea'
 
   const iconBg = `linear-gradient(135deg, ${color} 0%, ${hexToRgba(color, 0.7)} 100%)`
@@ -71,7 +59,7 @@ export default function LinkCard({ link, index }) {
 
       {/* Chevron */}
       <span className="link-chevron" aria-hidden="true">
-        {FaIcons.FaChevronRight && <FaIcons.FaChevronRight />}
+        <FaChevronRight />
       </span>
     </motion.a>
   )
