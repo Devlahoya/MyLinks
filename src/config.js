@@ -87,6 +87,13 @@ export const config = {
     //   color: "#5865F2",
     // },
     {
+      id: 10,
+      title: "WhatsApp",
+      url: "https://wa.me/526182343529",
+      icon: "FaWhatsapp",
+      color: "#25D366",
+    },
+    {
       id: 9,
       title: "Mi Sitio Web",
       url: "https://devlahoya.netlify.app/",
