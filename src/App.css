@@ -150,7 +150,10 @@ body {
 
 /* Name & bio */
 .profile-name {
-  font-size: clamp(1.1rem, 5vw, 1.75rem);
+  /* clamp: min=0.95rem, fluid=3.8vw, max=1.35rem
+     At max-width 480px container, 1.35rem fits ~35 chars in one line.
+     vw drives the size on narrow viewports so mobile also stays one line. */
+  font-size: clamp(0.95rem, 3.8vw, 1.35rem);
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.2;
@@ -330,10 +333,6 @@ body {
     padding: 68px 16px 60px; /* top accounts for fixed lang switcher */
   }
 
-  .profile-name {
-    font-size: clamp(1rem, 4.5vw, 1.4rem);
-  }
-
   .avatar-wrapper {
     width: 90px;
     height: 90px;
@@ -359,10 +358,6 @@ body {
 @media (min-width: 768px) {
   .page {
     padding: 80px 20px 100px;
-  }
-
-  .profile-name {
-    font-size: clamp(1.5rem, 3vw, 2rem);
   }
 
   .avatar-wrapper {
