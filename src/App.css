@@ -91,7 +91,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 48px 20px 80px;
+  padding: 72px 20px 80px; /* top accounts for fixed lang switcher */
 }
 
 /* ---------- Card container ---------- */
@@ -150,11 +150,15 @@ body {
 
 /* Name & bio */
 .profile-name {
-  font-size: var(--font-size-name);
+  font-size: clamp(1.1rem, 5vw, 1.75rem);
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.2;
   text-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .profile-bio {
@@ -323,11 +327,11 @@ body {
 /* ---------- Responsive ---------- */
 @media (max-width: 520px) {
   .page {
-    padding: 36px 16px 60px;
+    padding: 68px 16px 60px; /* top accounts for fixed lang switcher */
   }
 
   .profile-name {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4.5vw, 1.4rem);
   }
 
   .avatar-wrapper {
@@ -354,11 +358,11 @@ body {
 
 @media (min-width: 768px) {
   .page {
-    padding: 64px 20px 100px;
+    padding: 80px 20px 100px;
   }
 
   .profile-name {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
   }
 
   .avatar-wrapper {
