@@ -11,7 +11,7 @@ export const config = {
 
   // --- Theme colors (edit freely) ---
   theme: {
-    background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    background: "linear-gradient(135deg, #002fff 0%, #001056 100%)",
     // Overlay dots pattern — set to "none" to disable
     patternOpacity: "0.04",
     cardBg: "rgba(255, 255, 255, 0.13)",
