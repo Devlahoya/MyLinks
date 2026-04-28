@@ -87,6 +87,13 @@ export const config = {
     //   color: "#5865F2",
     // },
     {
+      id: 11,
+      title: "Correo electrónico",
+      url: "mailto:devlahoya@gmail.com",
+      icon: "FaEnvelope",
+      color: "#EA4335",
+    },
+    {
       id: 10,
       title: "WhatsApp",
       url: "https://wa.me/526182343529",
@@ -126,6 +133,7 @@ export const config = {
       bio: "Estudiante de Maestría en Ingeniería · Creador de contenido · Desarrollador · Amante del Monster Blanco ⚡",
       footer: "© 2026 Devlahoya · Hecho con ❤️",
       links: {
+        11: "Correo electrónico",
         9: "Mi Sitio Web",
       },
     },
@@ -133,6 +141,7 @@ export const config = {
       bio: "Master's student in Engineering · Content creator · Developer · White Monster lover ⚡",
       footer: "© 2026 Devlahoya · Made with ❤️",
       links: {
+        11: "Email",
         9: "My Website",
       },
     },
@@ -140,6 +149,7 @@ export const config = {
       bio: "Étudiant en Master d'Ingénierie · Créateur de contenu · Développeur · Amateur de Monster Blanc ⚡",
       footer: "© 2026 Devlahoya · Fait avec ❤️",
       links: {
+        11: "E-mail",
         9: "Mon Site Web",
       },
     },
@@ -147,6 +157,7 @@ export const config = {
       bio: "Магистрант инженерного факультета · Создатель контента · Разработчик · Любитель белого Monster ⚡",
       footer: "© 2026 Devlahoya · Сделано с ❤️",
       links: {
+        11: "Эл. почта",
         9: "Мой веб-сайт",
       },
     },
@@ -154,6 +165,7 @@ export const config = {
       bio: "Masterstudent der Ingenieurwissenschaften · Content Creator · Entwickler · White Monster Liebhaber ⚡",
       footer: "© 2026 Devlahoya · Mit ❤️ gemacht",
       links: {
+        11: "E-Mail",
         9: "Meine Webseite",
       },
     },
@@ -161,6 +173,7 @@ export const config = {
       bio: "工程学硕士生 · 内容创作者 · 开发者 · 白色魔爪能量饮料爱好者 ⚡",
       footer: "© 2026 Devlahoya · 用 ❤️ 制作",
       links: {
+        11: "电子邮件",
         9: "我的网站",
       },
     },
@@ -168,6 +181,7 @@ export const config = {
       bio: "Mestrando em Engenharia · Criador de conteúdo · Desenvolvedor · Amante de Monster Branco ⚡",
       footer: "© 2026 Devlahoya · Feito com ❤️",
       links: {
+        11: "E-mail",
         9: "Meu Site",
       },
     },

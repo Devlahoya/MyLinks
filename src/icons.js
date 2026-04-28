@@ -22,6 +22,7 @@ import {
   FaGlobe,
   FaSpotify,
   FaWhatsapp,
+  FaEnvelope,
   FaLink,
   FaChevronRight,
 } from 'react-icons/fa6'
@@ -42,6 +43,7 @@ export const iconMap = {
   FaGlobe,
   FaSpotify,
   FaWhatsapp,
+  FaEnvelope,
   // Add new icons here: SiBluesky,
 
   // UI icons (used internally)
