@@ -7,7 +7,7 @@ export const config = {
   // --- Profile ---
   name: "Héctor Ramón Martínez de la Hoya",
   bio: "Estudiante de Maestria en Ingenieria · Desarrollador · Amante del Monster Blanco ☕",
-  avatar: "https://media.licdn.com/dms/image/v2/D5603AQEmmRUNZJE-9A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721872692799?e=1777507200&v=beta&t=BehY3zHkReO565YOODhMD4v8uQ92RzhTkENy4VytTxQ",
+  avatar: "https://ibb.co/p6xHPBz2",
 
   // --- Theme colors (edit freely) ---
   theme: {
