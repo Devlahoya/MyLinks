@@ -6,7 +6,7 @@
 export const config = {
   // --- Profile ---
   name: "Héctor Ramón Martínez de la Hoya",
-  bio: "Estudiante de Maestria en Ingenieria · Creador de contenido · Desarrollador · Amante del Monster Blanco ☕",
+  bio: "Estudiante de Maestria en Ingenieria · Desarrollador · Amante del Monster Blanco ☕",
   avatar: "https://media.licdn.com/dms/image/v2/D5603AQEmmRUNZJE-9A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721872692799?e=1777507200&v=beta&t=BehY3zHkReO565YOODhMD4v8uQ92RzhTkENy4VytTxQ",
 
   // --- Theme colors (edit freely) ---
@@ -130,7 +130,7 @@ export const config = {
   defaultLang: "es",
   translations: {
     es: {
-      bio: "Estudiante de Maestría en Ingeniería · Creador de contenido · Desarrollador · Amante del Monster Blanco ⚡",
+      bio: "Estudiante de Maestría en Ingeniería · Desarrollador · Amante del Monster Blanco ⚡",
       footer: "© 2026 Devlahoya · Hecho con ❤️",
       links: {
         11: "Correo electrónico",
@@ -138,7 +138,7 @@ export const config = {
       },
     },
     en: {
-      bio: "Master's student in Engineering · Content creator · Developer · White Monster lover ⚡",
+      bio: "Master's student in Engineering · Developer · White Monster lover ⚡",
       footer: "© 2026 Devlahoya · Made with ❤️",
       links: {
         11: "Email",
@@ -146,7 +146,7 @@ export const config = {
       },
     },
     fr: {
-      bio: "Étudiant en Master d'Ingénierie · Créateur de contenu · Développeur · Amateur de Monster Blanc ⚡",
+      bio: "Étudiant en Master d'Ingénierie · Développeur · Amateur de Monster Blanc ⚡",
       footer: "© 2026 Devlahoya · Fait avec ❤️",
       links: {
         11: "E-mail",
@@ -154,7 +154,7 @@ export const config = {
       },
     },
     ru: {
-      bio: "Магистрант инженерного факультета · Создатель контента · Разработчик · Любитель белого Monster ⚡",
+      bio: "Магистрант инженерного факультета · Разработчик · Любитель белого Monster ⚡",
       footer: "© 2026 Devlahoya · Сделано с ❤️",
       links: {
         11: "Эл. почта",
@@ -162,7 +162,7 @@ export const config = {
       },
     },
     de: {
-      bio: "Masterstudent der Ingenieurwissenschaften · Content Creator · Entwickler · White Monster Liebhaber ⚡",
+      bio: "Masterstudent der Ingenieurwissenschaften · Entwickler · White Monster Liebhaber ⚡",
       footer: "© 2026 Devlahoya · Mit ❤️ gemacht",
       links: {
         11: "E-Mail",
@@ -178,7 +178,7 @@ export const config = {
       },
     },
     pt: {
-      bio: "Mestrando em Engenharia · Criador de conteúdo · Desenvolvedor · Amante de Monster Branco ⚡",
+      bio: "Mestrando em Engenharia · Desenvolvedor · Amante de Monster Branco ⚡",
       footer: "© 2026 Devlahoya · Feito com ❤️",
       links: {
         11: "E-mail",
